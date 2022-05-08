@@ -1,0 +1,146 @@
+body {
+    background: #232946;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 576px;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 800;
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link {
+    color: #fffffe;
+}
+
+.nav-link:hover {
+    color: #b8c1ec;
+}
+
+nav i {
+    color: #fffffe;
+    font-size: 1.5rem;
+}
+
+/* Header */
+header h1 {
+    color: #fffffe;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+header p {
+    color: #b8c1ec;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+header span {
+    color: #bbeeca;
+}
+
+header a {
+    color: #eebbc3;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #bbeeca;
+}
+
+/* Section Project */
+.section-title {
+    color: #fffffe;
+    font-weight: 800;
+    font-size: 1.5rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.section-title::after {
+    content: "";
+    width: 15%;
+    height: 3px;
+    background: #b8c1ec;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.card {
+    background: #2d3458;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid #414a76;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    color: #fffffe;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.card-body p {
+    color: #b8c1ec;
+    font-size: 1.1rem;
+}
+
+.card-body a {
+    color: #fffffe;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.card-body a:hover {
+    color: #eebbc3;
+}
+
+/* Section Contact */
+#contact p {
+    color: #b8c1ec;
+    font-size: 1.3rem;
+}
+
+#contact p a {
+    text-decoration: none;
+    color: #eebbc3;
+}
+
+#contact p a:hover {
+    text-decoration: none;
+    color: #bbeeca;
+}
+
+.btn-sosmed {
+    color: #fffffe;
+    font-size: 1.5rem;
+    background: #414a76;
+    border-radius: 50%;
+    margin-right: .3rem;
+}
+
+.btn-sosmed:hover {
+    color: #b8c1ec;
+}
+
+/* Footer */
+footer {
+    color: #b8c1ec;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+footer a {
+    color: #eebbc3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #bbeeca;
+}
